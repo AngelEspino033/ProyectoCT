@@ -1,0 +1,35 @@
+body
+    {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: red;
+        text-align: center;
+      }
+      .menu-principal { 
+        z-index: 70px;
+        display: flex;
+        background-color: #333;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .menu-principal li {
+        padding: 8px 10px;
+      }
+      .menu-principal li a {
+        text-decoration: none;
+        color: white;
+        display: block;
+      }
+      .menu-principal li a:hover {
+        background-color: #111;
+      }
+       body{ background-color: black;}
+
+ol,li{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-transform: none;
+}
